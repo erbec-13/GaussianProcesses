@@ -1,3 +1,5 @@
+#Author: Ethan Erb ece46
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.gaussian_process import GaussianProcessRegressor
