@@ -52,7 +52,7 @@ def run_problem_2():
         [10.0, 20.0],  # cold, high wind
         [15.0, 10.0]   # mild
     ])
-    y_train = np.array([27.0, 3.0, 14.5]) + np.random.normal(0, [0.5, 0.2, 0.3])
+    y_train = np.array([27.0, 3.0, 14.5])
 
     kernel = C(1.0, (1e-2, 1e2)) * RBF([10.0, 10.0])  # Different length scales for temp and wind
 
